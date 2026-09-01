@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Bun / Build output
+dist/
+*.log
+
+# Drizzle Kit output migrations (keep if committed, but ignore local sqlite or studio cache if any)
+.drizzle/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode
